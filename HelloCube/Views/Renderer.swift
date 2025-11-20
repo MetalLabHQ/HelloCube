@@ -173,7 +173,7 @@ class Renderer: NSObject, MTKViewDelegate {
         
         let viewMatrix = lookAt(
             eye: camera.position,
-            center: camera.target,
+            target: camera.target,
             up: camera.up
         )
         
